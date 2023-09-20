@@ -63,63 +63,63 @@ const Services = ({ serviceList }) => {
 };
 export default Services;
 
-// export const ServicesClassic = () => {
-//   return (
-//     <div className="content services">
-//       {/* title */}
-//       <div className="title">My Services</div>
-//       {/* content */}
-//       <div className="row service-items border-line-v">
-//         {/* service item */}
-//         <div className="col col-d-6 col-t-6 col-m-12 border-line-h">
-//           <div className="service-item">
-//             <div className="icon">
-//               <span className="ion ion-code" />
-//             </div>
-//             <div className="name">Web Development</div>
-//             <p>
-//               Modern and mobile-ready website that will help you reach all of
-//               your marketing.
-//             </p>
-//           </div>
-//         </div>
-//         {/* service item */}
-//         <div className="col col-d-6 col-t-6 col-m-12 border-line-h">
-//           <div className="service-item">
-//             <div className="icon">
-//               <span className="ion ion-music-note" />
-//             </div>
-//             <div className="name">Music Writing</div>
-//             <p>
-//               Music copying, transcription, arranging and composition services.
-//             </p>
-//           </div>
-//         </div>
-//         {/* service item */}
-//         <div className="col col-d-6 col-t-6 col-m-12">
-//           <div className="service-item">
-//             <div className="icon">
-//               <span className="ion ion-speakerphone" />
-//             </div>
-//             <div className="name">Advetising</div>
-//             <p>
-//               Advertising services include television, radio, print, mail and
-//               web.
-//             </p>
-//           </div>
-//         </div>
-//         {/* service item */}
-//         <div className="col col-d-6 col-t-6 col-m-12">
-//           <div className="service-item">
-//             <div className="icon">
-//               <span className="ion ion-ios-game-controller-b" />
-//             </div>
-//             <div className="name">Game Development</div>
-//             <p>Developing memorable and unique mobile android, ios games.</p>
-//           </div>
-//         </div>
-//         <div className="clear" />
-//       </div>
-//     </div>
-//   );
-// };
+export const ServicesClassic = () => {
+  return (
+    <div className="content services">
+      {/* title */}
+      <div className="title">My Services</div>
+      {/* content */}
+      <div className="row service-items border-line-v">
+        {/* service item */}
+        <div className="col col-d-6 col-t-6 col-m-12 border-line-h">
+          <div className="service-item">
+            <div className="icon">
+              <span className="ion ion-code" />
+            </div>
+            <div className="name">Web Development</div>
+            <p>
+              Modern and mobile-ready website that will help you reach all of
+              your marketing.
+            </p>
+          </div>
+        </div>
+        {/* service item */}
+        <div className="col col-d-6 col-t-6 col-m-12 border-line-h">
+          <div className="service-item">
+            <div className="icon">
+              <span className="ion ion-music-note" />
+            </div>
+            <div className="name">Music Writing</div>
+            <p>
+              Music copying, transcription, arranging and composition services.
+            </p>
+          </div>
+        </div>
+        {/* service item */}
+        <div className="col col-d-6 col-t-6 col-m-12">
+          <div className="service-item">
+            <div className="icon">
+              <span className="ion ion-speakerphone" />
+            </div>
+            <div className="name">Advetising</div>
+            <p>
+              Advertising services include television, radio, print, mail and
+              web.
+            </p>
+          </div>
+        </div>
+        {/* service item */}
+        <div className="col col-d-6 col-t-6 col-m-12">
+          <div className="service-item">
+            <div className="icon">
+              <span className="ion ion-ios-game-controller-b" />
+            </div>
+            <div className="name">Game Development</div>
+            <p>Developing memorable and unique mobile android, ios games.</p>
+          </div>
+        </div>
+        <div className="clear" />
+      </div>
+    </div>
+  );
+};
