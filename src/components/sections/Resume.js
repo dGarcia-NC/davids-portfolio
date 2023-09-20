@@ -40,7 +40,7 @@ const ResumeSection = () => {
               </div>
               <div className="resume-item">
                 <div className="date">2022 - 2023</div>
-                <div className="name">Backend Developer</div>
+                <div className="name">Contracted Backend Developer</div>
                 <div className="company">GoodRx</div>
                 <p>
                 Contributed to the Subscription Service and used Golang on the
