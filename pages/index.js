@@ -208,6 +208,7 @@ const Index = () => {
         <About>
           <AboutMe bio={bio} />
           <Services />
+          <Skills />
           <FunFact />
           <Clients />
           <Quote />
